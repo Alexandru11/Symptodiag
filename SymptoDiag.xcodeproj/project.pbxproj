@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50F1F36F11B09E2932A395C /* Pods_SymptoDiag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882AC52722833C63AACF51B8 /* Pods_SymptoDiag.framework */; };
 		E6264E2320A43411008435A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6264E2220A43411008435A8 /* AppDelegate.swift */; };
 		E6264E2520A43411008435A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6264E2420A43411008435A8 /* ViewController.swift */; };
 		E6264E2820A43411008435A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6264E2620A43411008435A8 /* Main.storyboard */; };
 		E6264E2A20A43416008435A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6264E2920A43416008435A8 /* Assets.xcassets */; };
 		E6264E2D20A43416008435A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6264E2B20A43416008435A8 /* LaunchScreen.storyboard */; };
+		E6264E3520A4AA31008435A8 /* QuestionNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6264E3420A4AA31008435A8 /* QuestionNavController.swift */; };
+		E6264E3E20A503A4008435A8 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E6264E3D20A503A4008435A8 /* Objective-CBridgingHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11C07E96EC1D3B4D7C0419CF /* Pods-SymptoDiag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymptoDiag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SymptoDiag/Pods-SymptoDiag.debug.xcconfig"; sourceTree = "<group>"; };
+		882AC52722833C63AACF51B8 /* Pods_SymptoDiag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SymptoDiag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6264E1F20A43410008435A8 /* SymptoDiag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymptoDiag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6264E2220A43411008435A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6264E2420A43411008435A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,10 @@
 		E6264E2920A43416008435A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6264E2C20A43416008435A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6264E2E20A43416008435A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6264E3420A4AA31008435A8 /* QuestionNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionNavController.swift; sourceTree = "<group>"; };
+		E6264E3C20A503A3008435A8 /* SymptoDiag-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SymptoDiag-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6264E3D20A503A4008435A8 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+		F8F1F1686B8A5B405494C240 /* Pods-SymptoDiag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymptoDiag.release.xcconfig"; path = "Pods/Target Support Files/Pods-SymptoDiag/Pods-SymptoDiag.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50F1F36F11B09E2932A395C /* Pods_SymptoDiag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13218C93AEA4552E88C2F973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11C07E96EC1D3B4D7C0419CF /* Pods-SymptoDiag.debug.xcconfig */,
+				F8F1F1686B8A5B405494C240 /* Pods-SymptoDiag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B98B26CC3E1BF8C442472CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882AC52722833C63AACF51B8 /* Pods_SymptoDiag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6264E1620A43410008435A8 = {
 			isa = PBXGroup;
 			children = (
+				E6264E3D20A503A4008435A8 /* Objective-CBridgingHeader.m */,
 				E6264E2120A43411008435A8 /* SymptoDiag */,
 				E6264E2020A43410008435A8 /* Products */,
+				13218C93AEA4552E88C2F973 /* Pods */,
+				B98B26CC3E1BF8C442472CCD /* Frameworks */,
+				E6264E3C20A503A3008435A8 /* SymptoDiag-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +91,7 @@
 				E6264E2920A43416008435A8 /* Assets.xcassets */,
 				E6264E2B20A43416008435A8 /* LaunchScreen.storyboard */,
 				E6264E2E20A43416008435A8 /* Info.plist */,
+				E6264E3420A4AA31008435A8 /* QuestionNavController.swift */,
 			);
 			path = SymptoDiag;
 			sourceTree = "<group>";
@@ -71,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6264E3120A43416008435A8 /* Build configuration list for PBXNativeTarget "SymptoDiag" */;
 			buildPhases = (
+				9428E1CF856D1BC536917A17 /* [CP] Check Pods Manifest.lock */,
 				E6264E1B20A43410008435A8 /* Sources */,
 				E6264E1C20A43410008435A8 /* Frameworks */,
 				E6264E1D20A43410008435A8 /* Resources */,
+				9350FCB58CFF799D55F6D08E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +130,7 @@
 				TargetAttributes = {
 					E6264E1E20A43410008435A8 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,12 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9350FCB58CFF799D55F6D08E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SymptoDiag/Pods-SymptoDiag-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NMSSH/NMSSH.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSH/SwiftSH.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMSSH.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSH.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SymptoDiag/Pods-SymptoDiag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9428E1CF856D1BC536917A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SymptoDiag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6264E1B20A43410008435A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6264E3E20A503A4008435A8 /* Objective-CBridgingHeader.m in Sources */,
 				E6264E2520A43411008435A8 /* ViewController.swift in Sources */,
+				E6264E3520A4AA31008435A8 /* QuestionNavController.swift in Sources */,
 				E6264E2320A43411008435A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +275,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -257,6 +336,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -278,8 +358,10 @@
 		};
 		E6264E3220A43416008435A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C07E96EC1D3B4D7C0419CF /* Pods-SymptoDiag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DM9CFZ6VBW;
 				INFOPLIST_FILE = SymptoDiag/Info.plist;
@@ -289,6 +371,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ai.SymptoDiag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SymptoDiag-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +380,10 @@
 		};
 		E6264E3320A43416008435A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F1F1686B8A5B405494C240 /* Pods-SymptoDiag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DM9CFZ6VBW;
 				INFOPLIST_FILE = SymptoDiag/Info.plist;
@@ -307,6 +393,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.ai.SymptoDiag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SymptoDiag-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
